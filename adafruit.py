@@ -5,8 +5,8 @@ import os
 import logging
 
 SPEEDTEST_CMD = '/usr/local/bin/speedtest'          # Location of speedtest script - CHANGE FOR YOUR SETUP
-LOG_FILE = '/home/smolz/speedtest.log'              # Location of log file - CHANGE FOR YOUR SETUP
-aio = Client('1ff7ede65e2744c29d91f17c880aa203')    # Setup Adafruit.io rest client with YOUR CLIENT KEY
+LOG_FILE = '/home/user/speedtest.log'              # Location of log file - CHANGE FOR YOUR SETUP
+aio = Client('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')    # Setup Adafruit.io rest client with YOUR CLIENT KEY
 
 
 def main():
